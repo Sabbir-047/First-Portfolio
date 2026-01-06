@@ -1,11 +1,61 @@
+/* Common Styles */
 * {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* We use box-sizing border box to keep the margin and padding in order to behave as a box model */
+    box-sizing: border-box;
+    /* We use box-sizing border box to keep the margin and padding in order to behave as a box model */
 }
+
+.btn{
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* Unique Styles */
 
 header {
     background: rgba(255, 248, 243, 1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.logo{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.logo span{
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--Dark 02, rgba(71, 71, 71, 1));
 }
