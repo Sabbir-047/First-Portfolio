@@ -1,0 +1,11 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* We use box-sizing border box to keep the margin and padding in order to behave as a box model */
+}
+
+header {
+    background: rgba(255, 248, 243, 1);
+}
