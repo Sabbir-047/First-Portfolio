@@ -193,7 +193,9 @@ main {
     font-style: bold;
 }
 
-.card p {
+/* common-para */
+
+.common-para {
     font-size: 16px;
     line-height: 28px;
     color: rgba(117, 117, 117, 1);
@@ -241,10 +243,6 @@ main {
 }
 
 .resume-container p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
-    color: rgba(117, 117, 117, 1);
     padding-right: 47px;
 }
 
@@ -253,7 +251,7 @@ main {
     color: rgba(209, 209, 209, 1);
 }
 
-.resume .center-btn{
+.resume .center-btn {
     display: flex;
     justify-content: center;
 }
