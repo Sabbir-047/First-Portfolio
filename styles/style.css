@@ -198,3 +198,62 @@ main {
     line-height: 28px;
     color: rgba(117, 117, 117, 1);
 }
+
+
+/* Resume Section */
+.resume {
+    padding-bottom: 130px;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+
+.resume-container {
+    padding: 113px 0px 50px 0px;
+    display: flex;
+    gap: 24px;
+}
+
+.resume-container h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    padding-bottom: 30px;
+}
+
+.resume-container h4 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.resume-container h5 {
+    font-style: SemiBold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: rgba(117, 117, 117, 1);
+    padding: 10px 0px 20px 0px;
+}
+
+.resume-container p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(117, 117, 117, 1);
+    padding-right: 47px;
+}
+
+.resume-container hr {
+    margin: 30px 0px;
+    color: rgba(209, 209, 209, 1);
+}
+
+.resume .center-btn{
+    display: flex;
+    justify-content: center;
+}
