@@ -53,7 +53,7 @@
       <!-- About me section -->
       <section class="about">
         <div class="section-info">
-          <h3>About Me</h3>
+          <h3 class="section-title">About Me</h3>
           <p>
             I, m a designer & developer with a passion for web design. I enjoy
             developing simple, clean and slick websites that provide real value
@@ -85,7 +85,7 @@
       <!-- What I do Section -->
       <section class="What-do">
         <div class="section-info">
-          <h3>What I do</h3>
+          <h3 class="section-title">What I do</h3>
           <p>
             I have more than 10 years experience building software for clients
             all over the world. Below is a quick overview of my main technical
@@ -211,15 +211,30 @@
 
     <!-- footer section -->
     <footer>
-
       <div class="footer-container">
         <div class="footer-info">
-          <h2>Lets Connect</h2>
-          <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+          <h2 class="section-title">Lets Connect</h2>
+          <p class="common-para">
+            Please fill out the form on this section to contact with me or call
+            between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+          </p>
+          <div class="footer-links">
+            <a href="">User-1</a>
+            <a href="">User-2</a>
+            <a href="">User-3</a>
+          </div>
+        </div>
+
+        <div class="footer-form">
+          <h2 class="section-title">Let's Message Me</h2>
+          <form>
+              <input type="text" name="name" id="name" placeholder="Your Name">
+              <input type="email" name="email" id="email" placeholder="Your email">
+              <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Message"></textarea>
+              <button type="submit" class="btn">Submit</button>
+          </form>
         </div>
       </div>
-      
-
     </footer>
   </body>
 </html>
